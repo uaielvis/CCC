@@ -4,39 +4,55 @@
   <title>Contato</title>
   <style>
     body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      margin: 0;
-      font-family: Arial, sans-serif;
     }
 
-    form {
-      text-align: center;
+    .text-block {
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      width: 400px;
+      text-align: justify;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
-    input {
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    p {
       margin-bottom: 10px;
-      padding: 5px;
-      width: 250px;
-    }
-
-    button {
-      padding: 10px 20px;
-      background-color: #4CAF50;
-      color: white;
-      border: none;
-      cursor: pointer;
     }
   </style>
 </head>
 <body>
-  <form>
-    <input type="text" placeholder="Nome" required><br>
-    <input type="tel" placeholder="Telefone" required><br>
-    <input type="email" placeholder="E-mail" required><br>
-    <button type="submit">Enviar</button>
-  </form>
+  <div class="container">
+    <div class="text-block">
+      <h1>Contato</h1>
+      <p>Mateus Moreira Fonseca</p>
+      <p>RA: 1426885</p>
+      <p>E-mail: mateus.fonseca1992@gmail.com</p>
+      <p>Raul Carlos Dias Severino</p>
+      <p>RA: 1997254</p>
+      <p>E-mail: raul.carlos@hotmail.com</p>
+      <p>João Gabriel Vilela de Carvalho</p>
+      <p>RA: 1063227</p>
+      <p>E-mail: joaocarvalho@alunos.utfpr.edu.br</p>
+      <p>Elvis de Oliveira Santiago</p>
+      <p>RA: 1294300</p>
+      <p>E-mail: elvis.utfpr@gmail.com</p>
+    </div>
+  </div>
 </body>
 </html>
