@@ -1,0 +1,42 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+#menu {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#videos {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#videos h2 {
+  margin-bottom: 10px;
+}
+
+.video {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.video h3 {
+  margin-top: 5px;
+}
